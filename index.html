@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylz.css">
+
+</head>
+<body>
+
+<div id="dead">
+    <h1 id="deadinfo">YOU ARE DEAD !</h1>
+</div>
+<div class="container">
+    <div id="firstBox">
+        <h2>Choisir le niveau de difficultés</h2>
+        <input type="submit" value="Facile" id="easy" onclick="level.startGame('easy')"; >
+        <input type="submit" value="Moyen"  id="medium" onclick="level.startGame('medium')"; >
+        <input type="submit" value="Difficile" id="hard" onclick="level.startGame('hard')"; >
+    </div>
+    <div id="box">
+        <p id="goodWords"></p>
+        <input id="infosPlayer" type="text" placeholder="Inséré une lettre" minlength="1" max="1" maxlength="1">
+        <input type="submit" id="send" value="Valider">
+        <h2 id="text">Lettre utilisées: </h2>
+        <div class="page">
+            <h2 id="tenta"></h2>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
